@@ -23,19 +23,19 @@ let game = new Phaser.Game(config);//variable that contains the game
 function preload() {
     //Sprites
     // this.load.image('PLACEHOLDER', '/img/sprites/PLACEHOLDER'); (template for assets)
-    this.load.spritesheet('player', '/img/sprites/player.png', { frameWidth: 64, frameHeight: 64 });
-    this.load.spritesheet('Xarzeth', '/img/sprites/Xarzeth.png', { frameWidth: 64, frameHeight: 64 });
-    this.load.spritesheet('Mage', '/img/sprites/Mage.png', { frameWidth: 64, frameHeight: 64 });
+    this.load.spritesheet('player', 'img/sprites/player.png', { frameWidth: 64, frameHeight: 64 });
+    this.load.spritesheet('Xarzeth', 'img/sprites/Xarzeth.png', { frameWidth: 64, frameHeight: 64 });
+    this.load.spritesheet('Mage', 'img/sprites/Mage.png', { frameWidth: 64, frameHeight: 64 });
 
-    this.load.image('screenCover', '/img/worldMap/screenCover.png');
-    this.load.tilemapTiledJSON('map', './world/firstMap.json');
-    this.load.image('tiles', './world/tileset.png');
+    this.load.image('screenCover', 'img/worldMap/screenCover.png');
+    this.load.tilemapTiledJSON('map', 'world/firstMap.json');
+    this.load.image('tiles', 'world/tileset.png');
 
-    this.load.image('Ice Trap', '/img/objects/iceCircle.png');
+    this.load.image('Ice Trap', 'img/objects/iceCircle.png');
 
-    this.load.spritesheet('Fire Ball', '/img/objects/fireProjectile.png', { frameWidth: 64, frameHeight: 64 });
-    this.load.spritesheet('Flame', '/img/objects/flameBall.png', { frameWidth: 64, frameHeight: 64 });
-    this.load.spritesheet('Sapphire shattering ultra omega (sus potion 3 am) blast', '/img/objects/crystalSpell.png', { frameWidth: 64, frameHeight: 64 });
+    this.load.spritesheet('Fire Ball', 'img/objects/fireProjectile.png', { frameWidth: 64, frameHeight: 64 });
+    this.load.spritesheet('Flame', 'img/objects/flameBall.png', { frameWidth: 64, frameHeight: 64 });
+    this.load.spritesheet('Sapphire shattering ultra omega (sus potion 3 am) blast', 'img/objects/crystalSpell.png', { frameWidth: 64, frameHeight: 64 });
 }
 
 //Game variables
