@@ -52,7 +52,7 @@ function updateCheckValues(){
 
 //Sends user to the gameworld page
 function redirectToGame(){
-    window.location.replace("/gameworld.html");
+    window.location.replace("gameworld.html");
 };
 
 //Throws the user off of the page.
