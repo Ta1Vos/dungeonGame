@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Funni dungeon novel gaem</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+    <link rel="stylesheet" href="/css/canvas.css">
+</head>
+
+<body>
+    <ul class="spell-stats">
+        <li>1 = Ice Trap(5 dmg, 20 DoT, 5s stun)</li>
+        <li>2 = Fireball(10 dmg)</li>
+        <li>3 = Flame(30 DoT)</li>
+        <li>4 = Sapphire blast(20 dmg/50 dmg charge)</li>
+        <li>5 = Small heal (35hp/10s)</li>
+        <li>6 = Large heal (75 hp/10s)</li>
+        <li><small>* DoT = Damage over Time</small></li>
+        
+    </ul>
+    <div class="point-system">
+        Coints: 0
+    </div>
+    <div class="current-spell">
+        Current spell: Fireball 
+    </div>
+ 
+    <script src="js/classes.js"></script>
+    <script src="js/worldGeneration/eventFunctions.js"></script>
+    <script src="js/other/enemyAttacks.js"></script>
+    <script src="js/other/spellAttacks.js"></script>
+    <script src="js/worldGeneration/loadFunctions.js"></script>
+    <script src="js/worldGeneration/assetLoader.js"></script>
+    <script src="js/worldGeneration/movementEngine.js"></script>
+    <script defer src="js/worldGeneration/worldLoader.js"></script>
+    <script defer src="js/worldGeneration/worldUpdater.js"></script>
+</body>
+
+</html>

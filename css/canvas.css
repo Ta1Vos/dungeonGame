@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+.spell-stats {
+    width: 15vw;
+    text-align: left;
+}
+
+.z-index {
+    z-index: 2;
+}
+
+.short-transition{
+    transition: 0.5s;
+}
+
+.invisible{
+    visibility: hidden;
+}
